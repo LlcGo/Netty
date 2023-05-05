@@ -1,10 +1,9 @@
-package com.lc.netty.c1;
+package com.lc.netty.shiyong;
 
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import lombok.extern.slf4j.Slf4j;
+
+import java.io.*;
 import java.nio.channels.FileChannel;
 
 /**
@@ -12,7 +11,9 @@ import java.nio.channels.FileChannel;
  * @Date 2023/5/4
  * @Description
  */
+
 public class TestFileCopy {
+
     public static void main(String[] args) {
         try(FileChannel from = new FileInputStream("data.text").getChannel();
             FileChannel to = new FileOutputStream("data3.text").getChannel()) {

@@ -2,7 +2,7 @@ package com.lc.netty.c1;
 
 import java.nio.ByteBuffer;
 
-import static com.lc.netty.c1.ByteBufferUtil.debugAll;
+import static com.lc.netty.utils.ByteBufferUtil.debugAll;
 
 /**
  * @Author Lc

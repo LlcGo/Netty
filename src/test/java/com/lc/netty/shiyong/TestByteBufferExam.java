@@ -1,8 +1,8 @@
-package com.lc.netty.c1;
+package com.lc.netty.shiyong;
 
 import java.nio.ByteBuffer;
 
-import static com.lc.netty.c1.ByteBufferUtil.debugAll;
+import static com.lc.netty.utils.ByteBufferUtil.debugAll;
 
 /**
  * @Author Lc
