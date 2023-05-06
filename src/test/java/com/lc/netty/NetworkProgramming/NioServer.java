@@ -49,19 +49,52 @@ public class NioServer {
                 SocketChannel sc = channel.accept();
                 //设置为非阻塞
                 sc.configureBlocking(false);
-                final SelectionKey readkey = sc.register(selector, 0, null);
+                ByteBuffer buffer = ByteBuffer.allocate(16);
+                SelectionKey readkey = sc.register(selector, 0, buffer);
                 readkey.interestOps(SelectionKey.OP_READ);
                 log.debug("连接成功的是：{}"+ sc);
             } else if(ckey.isReadable()){//如果是读
-                SocketChannel readChannel = (SocketChannel)ckey.channel();  //拿到事件触发的channel
-                ByteBuffer buffer = ByteBuffer.allocate(16);
-                readChannel.read(buffer);
-                buffer.flip();
-                debugAll(buffer);
+                try {
+                    SocketChannel readChannel = (SocketChannel)ckey.channel();  //拿到事件触发的channel
+                    ByteBuffer buffer = (ByteBuffer)ckey.attachment();
+                    int read = readChannel.read(buffer);
+                    if(read == -1){
+                        ckey.cancel(); //如果客户端正常退出读取的时候返回-1
+                    }else {
+                        split(buffer);
+                        //如果最后读满了 当前指针位置等与最后限制的位置需要扩容
+                        if (buffer.position() == buffer.limit()){
+                              //扩容为原来的两倍
+                            ByteBuffer newBuffer  = ByteBuffer.allocate(buffer.capacity() * 2);
+                            buffer.flip();
+                            newBuffer.put(buffer);
+                            //扩容后再放入附属品
+                            ckey.attach(newBuffer);
+                        }
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                    ckey.cancel(); //客户端强制注销 取消key
+                }
             }
 
 
 //            ckey.cancel();
         }
+    }
+
+    private static void split(ByteBuffer buffer){
+        buffer.flip();
+        for (int i = 0; i < buffer.limit(); i++) {
+            if(buffer.get(i) == '\n'){
+                int length = i + 1 - buffer.position();
+                ByteBuffer target = ByteBuffer.allocate(length);
+                for(int j = 0; j < length; j++){
+                    target.put(buffer.get());
+                }
+                debugAll(target);
+            }
+        }
+        buffer.compact();
     }
 }

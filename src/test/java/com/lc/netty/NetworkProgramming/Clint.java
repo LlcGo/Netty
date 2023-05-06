@@ -4,7 +4,9 @@ import com.google.gson.internal.bind.util.ISO8601Utils;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
+import java.net.SocketAddress;
 import java.nio.channels.SocketChannel;
+import java.nio.charset.Charset;
 
 /**
  * @Author Lc
@@ -16,6 +18,8 @@ public class Clint {
         //创建客户端网络
         SocketChannel clint = SocketChannel.open();
         clint.connect(new InetSocketAddress("localhost",8080));
-        System.out.println("wait....");
+        SocketAddress localAddress = clint.getLocalAddress();
+        clint.write(Charset.defaultCharset().encode("asdasdsaddsadsdsdasdsafagd\n6666666666666666666666666666666666666666666\n"));
+        System.in.read();//阻塞方法 等待控制台输入
     }
 }
