@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0cb03e5-8322-4384-93bc-6134395f5091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/ThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Work1Thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/ServerWrite/ClientW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/ServerWrite/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/HelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/HelloServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/MulitThreads/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/aio/TestAio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/Clint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/NioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Boss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/MulitThreads/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/MulitThreads/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/ThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/MulitThreads/ThreadFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/MulitThreads/Work1Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/MulitThreads/Work1Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/NetworkProgramming/Clint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/NetworkProgramming/NioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/NetworkProgramming/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/NetworkProgramming/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/ServerWrite/ClientW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/ServerWrite/ClientW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/ServerWrite/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/ServerWrite/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestBufferReadr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestBufferReadr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestBufferString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestBufferString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestByteBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestByteBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestByteBufferALLocate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestByteBufferALLocate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestScatterRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestScatterRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/c1/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/c1/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/shiyong/TestByteBufferExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/shiyong/TestByteBufferExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/shiyong/TestCopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/shiyong/TestCopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/shiyong/TestFileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/shiyong/TestFileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/shiyong/TestFileWalkFileTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/shiyong/TestFileWalkFileTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/utils/ByteBufferUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/nio/utils/ByteBufferUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestBufferReadr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestBufferString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestByteBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestByteBufferALLocate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestScatterRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lc/netty/c1/TestUtils.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +89,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Design Pattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,13 +114,13 @@
       <recent name="E:\ideaJava\Netty\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Boss">
+  <component name="RunManager" selected="Application.HelloClient">
     <configuration name="Boss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.MulitThreads.Boss" />
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.nio.MulitThreads.Boss" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.MulitThreads.*" />
+          <option name="PATTERN" value="com.lc.netty.nio.MulitThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.ServerWrite.ClientW" />
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.nio.MulitThreads.Client" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.ServerWrite.*" />
+          <option name="PATTERN" value="com.lc.netty.nio.MulitThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clint" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.NetworkProgramming.Clint" />
+    <configuration name="HelloClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.HelloClient" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.NetworkProgramming.*" />
+          <option name="PATTERN" value="com.lc.netty.TestNetty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.ServerWrite.Server" />
+    <configuration name="HelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.HelloServer" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.ServerWrite.*" />
+          <option name="PATTERN" value="com.lc.netty.TestNetty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.MulitThreads.Test" />
+    <configuration name="TestAio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.nio.aio.TestAio" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.MulitThreads.*" />
+          <option name="PATTERN" value="com.lc.netty.nio.aio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +181,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Clint" />
-      <item itemvalue="Application.Server (1)" />
-      <item itemvalue="Application.ClientW" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Boss" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.TestAio" />
+      <item itemvalue="Application.HelloServer" />
+      <item itemvalue="Application.HelloClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloClient" />
+        <item itemvalue="Application.HelloServer" />
+        <item itemvalue="Application.TestAio" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Boss" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ClientW" />
-        <item itemvalue="Application.Server (1)" />
-        <item itemvalue="Application.Clint" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +224,15 @@
       <workItem from="1683271968428" duration="3619000" />
       <workItem from="1683275657435" duration="8284000" />
       <workItem from="1683340587332" duration="83000" />
-      <workItem from="1683340681989" duration="18485000" />
+      <workItem from="1683340681989" duration="18642000" />
+      <workItem from="1683374760591" duration="83000" />
+      <workItem from="1683419888919" duration="954000" />
+      <workItem from="1683441366923" duration="872000" />
+      <workItem from="1683442835356" duration="211000" />
+      <workItem from="1683443087034" duration="17000" />
+      <workItem from="1683458552736" duration="3760000" />
+      <workItem from="1683510972495" duration="806000" />
+      <workItem from="1683530746824" duration="3990000" />
     </task>
     <task id="LOCAL-00001" summary="5/5 Bytebuffer">
       <created>1683272129186</created>
@@ -217,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683287821457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5/6 非阻塞 断连，read，write">
+      <created>1683374667227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683374667227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +264,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5/5 Bytebuffer" />
     <MESSAGE value="5/5 非阻塞 selector to read" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/5 非阻塞 selector to read" />
+    <MESSAGE value="5/6 非阻塞 断连，read，write" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/6 非阻塞 断连，read，write" />
   </component>
   <component name="WindowStateProjectService">
     <state x="292" y="0" key="#HTTP_Proxy" timestamp="1683275893308">
@@ -237,34 +276,38 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="292" y="0" key="#Project_Structure/0.0.1600.852@0.0.1600.852" timestamp="1683198918734" />
-    <state x="254" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683355487837">
+    <state x="254" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1683460652383">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="254" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.852@0.0.1600.852" timestamp="1683355487837" />
+    <state x="254" y="8" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.852@0.0.1600.852" timestamp="1683460652383" />
     <state x="495" y="200" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1683189334885">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="495" y="200" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.852@0.0.1600.852" timestamp="1683189334885" />
-    <state x="368" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1683370350144">
+    <state x="368" y="99" key="#com.intellij.ide.util.MemberChooser" timestamp="1683538394167">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="368" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1600.852@0.0.1600.852" timestamp="1683370350144" />
+    <state x="368" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1600.852@0.0.1600.852" timestamp="1683538394167" />
+    <state x="560" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1683536369044">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="560" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.852@0.0.1600.852" timestamp="1683536369044" />
     <state x="335" y="183" width="868" height="323" key="#xdebugger.evaluate" timestamp="1683352818830">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="335" y="183" width="868" height="323" key="#xdebugger.evaluate/0.0.1600.852@0.0.1600.852" timestamp="1683352818830" />
-    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1683287819589">
+    <state x="257" y="0" key="CommitChangelistDialog2" timestamp="1683374665693">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1683287819589" />
+    <state x="257" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1683374665693" />
     <state width="462" height="761" key="DebuggerActiveHint" timestamp="1683258958363">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state width="462" height="761" key="DebuggerActiveHint/0.0.1600.852@0.0.1600.852" timestamp="1683258958363" />
-    <state x="529" y="118" key="FileChooserDialogImpl" timestamp="1683370910596">
+    <state x="529" y="118" key="FileChooserDialogImpl" timestamp="1683512150168">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="529" y="118" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1683370910596" />
+    <state x="529" y="118" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1683512150168" />
     <state x="617" y="299" key="Gitee.ShareDialog" timestamp="1683272177665">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
@@ -289,50 +332,54 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state width="1547" height="283" key="GridCell.Tab.-1.right/0.0.1600.852@0.0.1600.852" timestamp="1683276715922" />
-    <state width="1547" height="292" key="GridCell.Tab.0.bottom" timestamp="1683373818952">
+    <state width="1547" height="426" key="GridCell.Tab.0.bottom" timestamp="1683538787301">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="292" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683373818952" />
-    <state width="1547" height="292" key="GridCell.Tab.0.center" timestamp="1683373818952">
+    <state width="1547" height="426" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683538787301" />
+    <state width="1547" height="426" key="GridCell.Tab.0.center" timestamp="1683538787301">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="292" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1683373818952" />
-    <state width="1547" height="292" key="GridCell.Tab.0.left" timestamp="1683373818952">
+    <state width="1547" height="426" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1683538787301" />
+    <state width="1547" height="426" key="GridCell.Tab.0.left" timestamp="1683538787301">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="292" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1683373818952" />
-    <state width="1547" height="292" key="GridCell.Tab.0.right" timestamp="1683373818952">
+    <state width="1547" height="426" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1683538787301" />
+    <state width="1547" height="426" key="GridCell.Tab.0.right" timestamp="1683538787301">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="292" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1683373818952" />
-    <state width="1547" height="326" key="GridCell.Tab.1.bottom" timestamp="1683371791110">
+    <state width="1547" height="426" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1683538787301" />
+    <state width="1547" height="266" key="GridCell.Tab.1.bottom" timestamp="1683462341582">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="326" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683371791110" />
-    <state width="1547" height="326" key="GridCell.Tab.1.center" timestamp="1683371791110">
+    <state width="1547" height="266" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683462341582" />
+    <state width="1547" height="266" key="GridCell.Tab.1.center" timestamp="1683462341582">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="326" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1683371791110" />
-    <state width="1547" height="326" key="GridCell.Tab.1.left" timestamp="1683371791110">
+    <state width="1547" height="266" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1683462341582" />
+    <state width="1547" height="266" key="GridCell.Tab.1.left" timestamp="1683462341582">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="326" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1683371791110" />
-    <state width="1547" height="326" key="GridCell.Tab.1.right" timestamp="1683371791110">
+    <state width="1547" height="266" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1683462341582" />
+    <state width="1547" height="266" key="GridCell.Tab.1.right" timestamp="1683462341582">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="326" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1683371791110" />
+    <state width="1547" height="266" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1683462341582" />
     <state x="177" y="0" key="SettingsEditor" timestamp="1683272506370">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="177" y="0" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1683272506370" />
-    <state x="292" y="83" key="Vcs.Push.Dialog.v2" timestamp="1683288438562">
+    <state x="292" y="83" key="Vcs.Push.Dialog.v2" timestamp="1683374694322">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="292" y="83" key="Vcs.Push.Dialog.v2/0.0.1600.852@0.0.1600.852" timestamp="1683288438562" />
+    <state x="292" y="83" key="Vcs.Push.Dialog.v2/0.0.1600.852@0.0.1600.852" timestamp="1683374694322" />
     <state x="836" y="75" width="875" height="663" key="recent.locations.popup" timestamp="1683359733652">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="836" y="75" width="875" height="663" key="recent.locations.popup/0.0.1600.852@0.0.1600.852" timestamp="1683359733652" />
+    <state x="372" y="190" key="run.anything.popup" timestamp="1683458984544">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="372" y="190" key="run.anything.popup/0.0.1600.852@0.0.1600.852" timestamp="1683458984544" />
     <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1683272652867">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
