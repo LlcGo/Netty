@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0cb03e5-8322-4384-93bc-6134395f5091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/EvenLoop/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/EvenLoop/EventLoopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/EvenLoop/TestEventLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel/EventLoopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel/EventLoopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel/SendEventLoopClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/Nettypro/TestCSQueition/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/Nettypro/TestCSQueition/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/Nettypro/TestCSQueition/dingchangjiema/HelloWorldClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/Nettypro/TestCSQueition/dingchangjiema/HelloWorldServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/HandlerAndPiplne/TestPipline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestBytebuf/TestByteBuf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestBytebuf/TestSlice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestBytebuf/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestThread/TestJdkFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestThread/TestNettyFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestThread/TestNettyPromise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/documentNetty/discard/DiscardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/documentNetty/discard/DiscardServiceHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/documentNetty/discard/YDService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel/SendEventLoopClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel/SendEventLoopClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +77,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/lc/netty/TestNetty/TestChannel" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/lc/netty/Nettypro/TestCSQueition/dingchangjiema" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -81,22 +91,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaJava\Netty\src\test\java\com\lc\netty\Nettypro\TestCSQueition\dingchangjiema" />
+      <recent name="E:\ideaJava\Netty\src\test\java\com\lc\netty\TestNetty\TestChannel" />
+      <recent name="E:\ideaJava\Netty\src\test\java\com\lc\netty\NetworkProgramming" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ideaJava\Netty\src\main\resources" />
       <recent name="E:\ideaJava\Netty\src\main\java" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaJava\Netty\src\test\java\com\lc\netty\TestNetty\TestChannel" />
-      <recent name="E:\ideaJava\Netty\src\test\java\com\lc\netty\NetworkProgramming" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.SendEventLoopClient">
-    <configuration name="EventLoopClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.TestChannel.EventLoopClient" />
+  <component name="RunManager" selected="Application.HelloWorldClient">
+    <configuration name="HelloWorldClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.Nettypro.TestCSQueition.HelloWorldClient" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.TestNetty.TestChannel.*" />
+          <option name="PATTERN" value="com.lc.netty.Nettypro.TestCSQueition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,38 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventLoopClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.EvenLoop.EventLoopClient" />
+    <configuration name="HelloWorldServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.Nettypro.TestCSQueition.HelloWorldServer" />
       <module name="Netty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lc.netty.TestNetty.EvenLoop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventLoopService (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.TestChannel.EventLoopService" />
-      <module name="Netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.netty.TestNetty.TestChannel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventLoopService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.EvenLoop.EventLoopService" />
-      <module name="Netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lc.netty.TestNetty.EvenLoop.*" />
+          <option name="PATTERN" value="com.lc.netty.Nettypro.TestCSQueition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,20 +141,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestByteBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.TestBytebuf.TestByteBuf" />
+      <module name="Netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.TestNetty.TestBytebuf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSlice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lc.netty.TestNetty.TestBytebuf.TestSlice" />
+      <module name="Netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lc.netty.TestNetty.TestBytebuf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EventLoopService" />
-      <item itemvalue="Application.EventLoopClient" />
-      <item itemvalue="Application.EventLoopService (1)" />
-      <item itemvalue="Application.EventLoopClient (1)" />
       <item itemvalue="Application.SendEventLoopClient" />
+      <item itemvalue="Application.TestByteBuf" />
+      <item itemvalue="Application.TestSlice" />
+      <item itemvalue="Application.HelloWorldClient" />
+      <item itemvalue="Application.HelloWorldServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloWorldClient" />
+        <item itemvalue="Application.HelloWorldServer" />
+        <item itemvalue="Application.TestSlice" />
+        <item itemvalue="Application.TestByteBuf" />
         <item itemvalue="Application.SendEventLoopClient" />
-        <item itemvalue="Application.EventLoopService (1)" />
-        <item itemvalue="Application.EventLoopClient (1)" />
-        <item itemvalue="Application.EventLoopClient" />
-        <item itemvalue="Application.EventLoopService" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +221,12 @@
       <workItem from="1683510972495" duration="806000" />
       <workItem from="1683530746824" duration="4154000" />
       <workItem from="1683595343409" duration="1463000" />
-      <workItem from="1683612953284" duration="9436000" />
+      <workItem from="1683612953284" duration="9885000" />
+      <workItem from="1683711825015" duration="61000" />
+      <workItem from="1683781807972" duration="9588000" />
+      <workItem from="1683852385004" duration="18000" />
+      <workItem from="1684216241132" duration="3298000" />
+      <workItem from="1684230244718" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="5/5 Bytebuffer">
       <created>1683272129186</created>
@@ -240,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683538850760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5/9 组件 EventLoop &amp; channel">
+      <created>1683623585961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683623585961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +274,8 @@
     <MESSAGE value="5/5 非阻塞 selector to read" />
     <MESSAGE value="5/6 非阻塞 断连，read，write" />
     <MESSAGE value="5/8 初识Netty" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/8 初识Netty" />
+    <MESSAGE value="5/9 组件 EventLoop &amp; channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/9 组件 EventLoop &amp; channel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="292" y="0" key="#HTTP_Proxy" timestamp="1683275893308">
@@ -270,10 +294,10 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="495" y="200" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.852@0.0.1600.852" timestamp="1683189334885" />
-    <state x="844" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1683618362471">
+    <state x="844" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1683791538023">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="844" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1600.852@0.0.1600.852" timestamp="1683618362471" />
+    <state x="844" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1600.852@0.0.1600.852" timestamp="1683791538023" />
     <state x="560" y="332" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1683536369044">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
@@ -282,18 +306,18 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="552" y="39" width="868" height="323" key="#xdebugger.evaluate/0.0.1600.852@0.0.1600.852" timestamp="1683618594989" />
-    <state x="105" y="0" key="CommitChangelistDialog2" timestamp="1683538848901">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1683623583844">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="105" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1683538848901" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1600.852@0.0.1600.852" timestamp="1683623583844" />
     <state width="462" height="761" key="DebuggerActiveHint" timestamp="1683258958363">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state width="462" height="761" key="DebuggerActiveHint/0.0.1600.852@0.0.1600.852" timestamp="1683258958363" />
-    <state x="529" y="118" key="FileChooserDialogImpl" timestamp="1683601518928">
+    <state x="529" y="118" key="FileChooserDialogImpl" timestamp="1683852401196">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="529" y="118" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1683601518928" />
+    <state x="529" y="118" key="FileChooserDialogImpl/0.0.1600.852@0.0.1600.852" timestamp="1683852401196" />
     <state x="617" y="299" key="Gitee.ShareDialog" timestamp="1683272177665">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
@@ -318,46 +342,50 @@
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state width="1547" height="283" key="GridCell.Tab.-1.right/0.0.1600.852@0.0.1600.852" timestamp="1683276715922" />
-    <state width="1547" height="254" key="GridCell.Tab.0.bottom" timestamp="1683623235576">
+    <state width="1547" height="288" key="GridCell.Tab.0.bottom" timestamp="1684230606911">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="254" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683623235576" />
-    <state width="1547" height="254" key="GridCell.Tab.0.center" timestamp="1683623235576">
+    <state width="1547" height="288" key="GridCell.Tab.0.bottom/0.0.1600.852@0.0.1600.852" timestamp="1684230606911" />
+    <state width="1547" height="288" key="GridCell.Tab.0.center" timestamp="1684230606911">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="254" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1683623235576" />
-    <state width="1547" height="254" key="GridCell.Tab.0.left" timestamp="1683623235574">
+    <state width="1547" height="288" key="GridCell.Tab.0.center/0.0.1600.852@0.0.1600.852" timestamp="1684230606911" />
+    <state width="1547" height="288" key="GridCell.Tab.0.left" timestamp="1684230606910">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="254" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1683623235574" />
-    <state width="1547" height="254" key="GridCell.Tab.0.right" timestamp="1683623235576">
+    <state width="1547" height="288" key="GridCell.Tab.0.left/0.0.1600.852@0.0.1600.852" timestamp="1684230606910" />
+    <state width="1547" height="288" key="GridCell.Tab.0.right" timestamp="1684230606911">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="254" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1683623235576" />
-    <state width="1547" height="57" key="GridCell.Tab.1.bottom" timestamp="1683621957700">
+    <state width="1547" height="288" key="GridCell.Tab.0.right/0.0.1600.852@0.0.1600.852" timestamp="1684230606911" />
+    <state width="1547" height="57" key="GridCell.Tab.1.bottom" timestamp="1683624886994">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="57" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683621957700" />
-    <state width="1547" height="57" key="GridCell.Tab.1.center" timestamp="1683621957700">
+    <state width="1547" height="57" key="GridCell.Tab.1.bottom/0.0.1600.852@0.0.1600.852" timestamp="1683624886994" />
+    <state width="1547" height="57" key="GridCell.Tab.1.center" timestamp="1683624886994">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="57" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1683621957700" />
-    <state width="1547" height="57" key="GridCell.Tab.1.left" timestamp="1683621957700">
+    <state width="1547" height="57" key="GridCell.Tab.1.center/0.0.1600.852@0.0.1600.852" timestamp="1683624886994" />
+    <state width="1547" height="57" key="GridCell.Tab.1.left" timestamp="1683624886994">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="57" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1683621957700" />
-    <state width="1547" height="57" key="GridCell.Tab.1.right" timestamp="1683621957700">
+    <state width="1547" height="57" key="GridCell.Tab.1.left/0.0.1600.852@0.0.1600.852" timestamp="1683624886994" />
+    <state width="1547" height="57" key="GridCell.Tab.1.right" timestamp="1683624886994">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state width="1547" height="57" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1683621957700" />
+    <state width="1547" height="57" key="GridCell.Tab.1.right/0.0.1600.852@0.0.1600.852" timestamp="1683624886994" />
     <state x="177" y="0" key="SettingsEditor" timestamp="1683272506370">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
     <state x="177" y="0" key="SettingsEditor/0.0.1600.852@0.0.1600.852" timestamp="1683272506370" />
-    <state x="292" y="83" key="Vcs.Push.Dialog.v2" timestamp="1683538920716">
+    <state x="292" y="83" key="Vcs.Push.Dialog.v2" timestamp="1683624868141">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
-    <state x="292" y="83" key="Vcs.Push.Dialog.v2/0.0.1600.852@0.0.1600.852" timestamp="1683538920716" />
+    <state x="292" y="83" key="Vcs.Push.Dialog.v2/0.0.1600.852@0.0.1600.852" timestamp="1683624868141" />
+    <state x="467" y="110" key="extract.method.dialog" timestamp="1684230389513">
+      <screen x="0" y="0" width="1600" height="852" />
+    </state>
+    <state x="467" y="110" key="extract.method.dialog/0.0.1600.852@0.0.1600.852" timestamp="1684230389513" />
     <state x="836" y="75" width="875" height="663" key="recent.locations.popup" timestamp="1683359733652">
       <screen x="0" y="0" width="1600" height="852" />
     </state>
